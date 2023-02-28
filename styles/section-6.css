@@ -1,0 +1,48 @@
+.section-6{
+    background-color: whitesmoke;
+    padding-bottom: 150px;
+}
+.section-6-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+}
+.section-6-item::after{
+    content: "";
+    height: 3px;
+    width: 100px;
+    background-color: #52339a;
+    bottom: 0;
+}
+.section-6-item-img{
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.carousel-item{
+    margin-left: unset;
+}
+.carousel-indicators{
+    bottom: -100px;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: #05b1b1;
+}
+.carousel-indicators .active{
+    background-color: black;
+}
+.carousel-control-next{
+    left: unset;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #52339a;
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+}
+@media (max-width:1000px) {
+    .carousel-control-prev, .carousel-control-next{
+        display: none;
+    }
+}

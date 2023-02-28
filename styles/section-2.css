@@ -1,0 +1,32 @@
+.section-2{
+    background-color: whitesmoke;
+}
+.section-2-h2{
+    color: #05b1b1;
+}
+.section-2-item{
+    margin: 15px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-2-item::after{
+    content: "";
+    height: 3px;
+    width: 100px;
+    background-color: #05b1b1;
+    position: absolute;
+    bottom: -10px;
+}
+.section-2-item span{
+    font-weight: bold;
+}
+.section-2-icon-wrap{
+    border: 3px solid #52339a;
+    border-radius: 50%;
+    padding: 10px;
+    color: #52339a;
+    margin-bottom: 15px;
+    font-size: 25px;
+}

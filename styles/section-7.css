@@ -1,0 +1,14 @@
+.section-7-h2{
+    text-align: center;
+    color: #05b1b1;
+    margin-bottom: 48px;
+}
+.section-7-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-7-btn{
+    width: fit-content;
+    margin: 0 auto;
+}

@@ -1,0 +1,22 @@
+.section-3{
+    text-align: center;
+}
+.section-3-h2{
+    color: #52339a;
+}
+.section-3 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-3 .row{
+    margin: 50px 0;
+}
+.section-3-item{
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 50px;
+    margin-bottom: 10px;
+    border: 3px solid #05b1b1;
+}

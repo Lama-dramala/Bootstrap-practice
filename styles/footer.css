@@ -1,0 +1,28 @@
+footer{
+    padding: 30px 0;
+    background-image: url(../img/pattern.png), linear-gradient(to right, #05b1b1 0%, #52339a 100%);
+    background-size: cover;
+}
+.section-7-media{
+    margin: 0 auto;
+    width: fit-content;
+}
+.section-7-media li{
+    display: inline-block;
+}
+.footer-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border-radius: 50%;
+}
+.footer-item:hover{
+    background-color: #fff;
+    color: black;
+}
